@@ -337,9 +337,8 @@ exports.handler = async function (event, context) {
                 <td class="wrapper">
                   <p>Salut</p>
                   <p>
-Voici les informations de réservation <br>
-Le nom: ${name} <br>
-Départ: ${messages} <br>Destination: <br>Nombre: ${numbers} <br>Email: ${emails} <br>Message: ${messages} <br>
+Voici le Message de contact <br>
+Le nom : ${name} <br> Numéro : ${numbers} <br>Email : ${emails} <br>Message : ${messages} <br>
 </p>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                     <tbody>
