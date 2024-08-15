@@ -779,11 +779,11 @@ textarea.w-select {
 	-webkit-transform: translate(0, 0)
 }
 
-.w-lightbox-backdrop {
+/* .w-lightbox-backdrop {
 	height: 100%;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch
-}
+} */
 
 .w-lightbox-content {
 	position: relative;
