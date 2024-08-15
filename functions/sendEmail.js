@@ -20,7 +20,7 @@ exports.handler = async function (event, context) {
         let message = {
             from: 'elbazhamzahb@gmail.com',
             to: 'elbazhamza77@gmail.com',
-            subject: 'Email de Reservation',
+            subject: 'Email de Contact',
             text: 'Hello world?',
             html: `
         <!doctype html>
@@ -339,7 +339,7 @@ exports.handler = async function (event, context) {
                   <p>
 Voici les informations de réservation <br>
 Le nom: ${name} <br>
-Départ: ${messages} <br>Destination: <br>Nombre: ${numbers} <br>Email: ${emails} <br>
+Départ: ${messages} <br>Destination: <br>Nombre: ${numbers} <br>Email: ${emails} <br>Message: ${messages} <br>
 </p>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                     <tbody>
