@@ -924,6 +924,11 @@ textarea.w-select {
 .w-lightbox-hide {
 	display: none
 }
+.w-lightbox-img {
+	width: auto;
+	height: auto;
+	max-width: none
+}
 @media (min-width:768px) {
 	.w-lightbox-content {
 		height: 96vh;
@@ -3903,9 +3908,4 @@ figcaption {
 	background-color: #e4e2e2;
 	padding: 7px;
 	border-radius: 3px;
-}
-.w-lightbox-img {
-	width: auto;
-	height: auto;
-	max-width: none
 }
