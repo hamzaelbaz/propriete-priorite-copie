@@ -831,12 +831,7 @@ textarea.w-select {
 	overflow: auto;
 	-webkit-overflow-scrolling: touch
 }
-.w-lightbox-image {
-	display: block;
-	float: none;
-	max-width: 100vw;
-	max-height: 100vh
-}
+
 
 .w-lightbox-group .w-lightbox-image {
 	max-height: 86vh
@@ -3908,4 +3903,10 @@ figcaption {
 	background-color: #e4e2e2;
 	padding: 7px;
 	border-radius: 3px;
+}
+.w-lightbox-image {
+	display: block;
+	float: none;
+	max-width: 100vw;
+	max-height: 100vh
 }
